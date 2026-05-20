@@ -7,7 +7,7 @@ Sistem informasi Penerimaan Mahasiswa Baru (PMB) berbasis web untuk UIN Siber Sy
 - PHP 8+
 - MySQL
 - Bootstrap 5.3
-- Apache XAMPP
+- Apache (XAMPP)
 
 ## Fitur
 
@@ -33,7 +33,7 @@ Sistem informasi Penerimaan Mahasiswa Baru (PMB) berbasis web untuk UIN Siber Sy
 
 ## Instalasi
 
-1. Clone repository dan letakkan di folder `htdocs` (XAMPP) atau `www` (Laragon) dengan nama folder `uinssc`
+1. Clone repository dan letakkan di folder `htdocs` (XAMPP) dengan nama folder `uinssc`
 2. Buka phpMyAdmin, buat database baru bernama `uinssc_pmb`
 3. Import file `database/schema.sql`
 4. Sesuaikan konfigurasi database di `includes/db.php`
